@@ -1,0 +1,14 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+.h1,
+.h2 {
+  font-family: "Petit Formal Script", cursive;
+}
+
+.bg-yellow {
+  background-color: rgb(250, 200, 70);
+}
