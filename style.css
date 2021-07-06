@@ -12,3 +12,7 @@ h2,
 .bg-yellow {
   background-color: rgb(250, 200, 70);
 }
+
+.text-yellow {
+  color: rgb(250, 200, 70);
+}
