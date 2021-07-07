@@ -8,14 +8,14 @@ if (window.innerWidth > 576) {
     document.addEventListener('scroll', () => {
 
         if (window.pageYOffset > 20) {
+            navbar.classList.remove('bg-transparent')
             navbar.classList.add('bg-white', 'shadow')
-            navbarBrand.classList.add('text-yellow')
         } else {
             navbar.classList.remove('bg-white', 'shadow')
             navbar.classList.add('bg-transparent')
         }
 
-        if (window.pageYOffset > window.innerWidth) {
+        if (window.pageYOffset > window.innerHeight) {
 
             navbarCTAScroll.classList.remove('d-none')
 
