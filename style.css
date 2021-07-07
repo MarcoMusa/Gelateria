@@ -15,7 +15,7 @@ h2,
 }
 
 .text-yellow {
-  color: rgb(214, 167, 48);
+  color: rgb(250, 200, 70);
 }
 
 #navbar {
@@ -26,7 +26,10 @@ h2,
 .header {
   height: 100vh;
   min-height: 500px;
-  background-color: pink;
+  background-image: url("https://www.chocabeckgelateria.it/sites/default/files/sfondo_slide_2.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .text-shadow {
