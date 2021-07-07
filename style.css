@@ -35,3 +35,24 @@ h2,
 .text-shadow {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
 }
+
+.over-box {
+  position: relative;
+  overflow: hidden;
+  transition: 1s;
+}
+
+.over-img {
+  transition: 1s;
+}
+
+.over-box:hover .over-img {
+  transform: scale(1.1);
+}
+
+.over-text {
+  position: absolute;
+  padding: 20px 40px;
+  transition: 1s;
+  z-index: 1;
+}
