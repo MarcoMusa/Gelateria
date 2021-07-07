@@ -56,3 +56,15 @@ h2,
   transition: 1s;
   z-index: 1;
 }
+
+.over-box::after {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  content: "";
+  transition: 1s;
+  opacity: 0;
+  background-color: rgb(255, 255, 255, 0.4);
+}
