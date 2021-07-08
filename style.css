@@ -71,7 +71,8 @@ h2,
 
 .bg-section-cta {
   height: 400px;
-  background: url("https://www.chocabeckgelateria.it/sites/default/files/sfondo_slide_2.JPG");
+  background: linear-gradient(white, transparent, white),
+    url("https://www.chocabeckgelateria.it/sites/default/files/sfondo_slide_2.JPG");
   background-size: cover;
   background-position: center;
 }
