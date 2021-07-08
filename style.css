@@ -125,3 +125,12 @@ h2,
   border-radius: 0px;
   border-bottom: 4px solid rgb(250, 200, 70) !important;
 }
+
+.bg-footer {
+  background-color: rgb(250, 200, 70);
+}
+
+.hr {
+  height: 2px !important;
+  background-color: darkgreen;
+}
