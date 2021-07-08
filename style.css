@@ -76,6 +76,13 @@ h2,
   background-position: center;
 }
 
+.bg-section-cta2 {
+  height: 400px;
+  background: url("https://static.vecteezy.com/ti/foto-gratuito/p2/2055185-coni-gelato-su-uno-sfondo-grigio-gratuito-foto.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 .product-label {
   position: relative;
   top: 50px;
