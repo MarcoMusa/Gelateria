@@ -29,7 +29,7 @@ if (window.innerWidth > 576) {
 }
 
 
-let final = new Date('August 30, 2021')
+let final = new Date('November 30, 2021')
 
 let giorniMancanti = document.querySelector('#giorniMancanti')
 let oreMancanti = document.querySelector('#oreMancanti')
@@ -41,9 +41,9 @@ function timer() {
     let today = new Date()
     let diff = final - today
     let secondi = Math.floor(diff / 1000 % 60)
-    let minuti = Math.floor((diff / 1000 * 60 % 60))
-    let ore = Math.floor((diff / 1000 * 60 * 60) % 24)
-    let giorni = Math.floor((diff / 1000 * 60 * 60 * 24))
+    let minuti = Math.floor((diff / (1000 * 60) % 60))
+    let ore = Math.floor((diff / (1000 * 60 * 60) % 24))
+    let giorni = Math.floor((diff / (1000 * 60 * 60 * 24)))
 
     giorniMancanti.innerHTML = (giorni > 9) ? giorni : "0" + giorni
     oreMancanti.innerHTML = (ore > 9) ? ore : "0" + ore
