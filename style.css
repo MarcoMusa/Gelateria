@@ -6,7 +6,8 @@ h1,
 h2,
 .h1,
 .h2,
-.navbar-brand {
+.navbar-brand,
+::placeholder {
   font-family: "Petit Formal Script", cursive;
 }
 
@@ -117,4 +118,10 @@ h2,
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+}
+
+.border-bottom-yellow {
+  border: none !important;
+  border-radius: 0px;
+  border-bottom: 4px solid rgb(250, 200, 70) !important;
 }
