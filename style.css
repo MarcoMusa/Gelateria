@@ -108,3 +108,12 @@ h2,
 .wrapper .img-fluid:hover {
   transform: scale(1.1);
 }
+
+.bg-section-timer {
+  height: 500px;
+  background: url("https://www.chocabeckgelateria.it/sites/default/files/sfondo_slide_2.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
