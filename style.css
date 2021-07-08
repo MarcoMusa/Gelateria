@@ -91,3 +91,11 @@ h2,
 .wrapper {
   overflow: hidden;
 }
+
+.wrapper .img-fluid {
+  transition: 0.4s;
+}
+
+.wrapper .img-fluid:hover {
+  transform: scale(1.1);
+}
